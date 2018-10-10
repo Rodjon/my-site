@@ -1,1 +1,1 @@
-web: gunicorn mysite/wsgi:application -b 0.0.0.0:15892
+web: gunicorn wsgi:application
